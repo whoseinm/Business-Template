@@ -1,0 +1,398 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+    font-family:'Montserrat', sans-serif;;
+}
+body{
+    overflow-x: hidden;
+}
+    
+#mainDiv{
+    width: 100%;
+}
+
+#mainDiv #header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainDiv #header h1{
+    border-bottom: 3px solid black;
+    display: inline-block;
+    font-size: 30px;
+    margin: 60px;
+    margin-left: 90px;
+}
+
+#mainDiv #header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 500px;
+}
+
+#mainDiv #header ul li{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+#mainDiv #header ul li a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+#mainDiv #header ul li a:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+#mainDiv #header ul #btn1{
+    transform: translateX(430px);
+    border: 2px solid black;
+    background: #000;
+    color: #ccc;
+    padding: 2px 50px;
+    letter-spacing: 2px;
+}
+
+#mainDiv #header ul #btn1:hover{
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* ---------------------=====================content baslangic-------------------------======================= */
+
+#mainDiv #content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #content img{
+    border-radius: 50px;
+}
+
+#mainDiv #content p{
+    position: absolute;
+    color: #fff;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#mainDiv #content b{
+    position: absolute;
+    color: #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#mainDiv #content #btn2{
+    position: absolute;
+    margin-top: 400px;
+    background-color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#mainDiv #content #btn2 button{
+    font-size: 20px;
+    padding: 16px 35px;
+    cursor: pointer;
+}
+/* -------------------------=========================Content bitis==================----------------------------- */
+
+/* -------------------------=========================what we believe baslangic==================----------------------------- */
+
+#mainDiv #what_we_believe{
+    width: 100%;
+    height: 300px;
+}
+
+#mainDiv #what_we_believe p{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    color: #959595;
+    font-weight: bold;
+}
+
+#mainDiv #what_we_believe p:nth-child(2){
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#mainDiv #what_we_believe strong{
+    color: #959595;
+    font-size: 20px;
+    position: absolute;
+    transform: translateX(100px) translateY(150px);
+}
+
+#mainDiv #what_we_believe i{
+    position: absolute;
+    font-size: 20px;
+    transform: translateX(100px) translateY(200px);
+}
+
+/* -------------------------=========================what we believe Bitis==================----------------------------- */
+
+/* -------------------------=========================Who we are Baslangic==================----------------------------- */
+
+#mainDiv #who_we_are{
+    width: 100%;
+    height: 600px;
+}
+
+#mainDiv #who_we_are p{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 200px;
+    font-size: 30px;
+    color: #959595;
+}
+
+#mainDiv #who_we_are b{
+    position: absolute;
+    font-size: 70px;
+    margin: 20px 0px 0px 200px;
+}
+
+#mainDiv #who_we_are #txt1{
+    width: 300px;
+    height: 300px;
+    color: #959595;
+    font-size: 20px;
+    margin: 80px 0px 0px 200px;
+}
+
+#mainDiv #who_we_are #btn3{
+    position: absolute;
+    background: #000;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    margin: -50px 0px 0px 200px;
+    cursor: pointer;
+}
+#mainDiv #who_we_are #btn3:hover{
+    color:#959595;
+    transition: 0.3s;
+}
+
+#mainDiv #who_we_are img{
+    transform: translateX(800px) translateY(-410px);
+}
+/* -------------------------=========================Who we are Bitis==================----------------------------- */
+/* -------------------------=========================team baslangic==================----------------------------- */
+
+#mainDiv #team{
+    width: 100%;
+    height: 500px;
+}
+
+#mainDiv #team p{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 1200px;
+    font-size: 30px;
+    color: #959595;
+}
+
+#mainDiv #team img{
+    margin-left: 200px;
+}
+
+#mainDiv #team #txt2{
+    width: 300px;
+    height: 300px;
+    color: #959595;
+    font-size: 20px;
+    margin: -350px 0px 0px 1200px;
+}
+#mainDiv #team #btn4{
+    position: absolute;
+    background: #000;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    margin: -100px 0px 0px 1200px;
+    cursor: pointer;
+}
+
+#mainDiv #team #btn4:hover{
+    color: #959595;
+    transition: 0.3s;
+}
+/* -------------------------=========================team Bitis==================----------------------------- */
+/* -------------------------=========================about Baslangic==================----------------------------- */
+#mainDiv #about{
+    width: 100%;
+    height: 500px;
+}
+
+#mainDiv #about p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #959595;
+    font-weight: bold;
+}
+#mainDiv #about p:nth-child(2){
+    text-align: center;
+    color: #1A1B1F;
+    font-size: 30px;
+    font-weight: lighter;
+    word-spacing: 10px;
+}
+/* -------------------------=========================about Bitis==================----------------------------- */
+
+/* ---------------------------=========================text1 baslangic====================----------------------------- */
+#mainDiv #about #text1{
+    width: 300px;
+    position: absolute;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#mainDiv #about #text1 p{
+    color: #1A1B1F;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#mainDiv #about #text1 b{
+    position: absolute;
+    padding-top: 15px;
+    color: #959595;
+}
+
+#mainDiv #about #text1 i{
+    position:absolute;
+    padding-top: 35px;
+    color: #959595;
+    font-size: 24px;
+}
+/* ---------------------------=========================text1 baslangic====================----------------------------- */
+
+/* ---------------------------=========================text2 baslangic====================----------------------------- */
+
+#mainDiv #about #text2{
+    width: 300px;
+    position: absolute;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+#mainDiv #about #text2 p{
+    color: #1A1B1F;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#mainDiv #about #text2 b{
+    position: absolute;
+    padding-top: 15px;
+    color: #959595;
+}
+
+#mainDiv #about #text2 i{
+    position:absolute;
+    padding-top: 35px;
+    color: #959595;
+    font-size: 24px;
+}    
+/* ---------------------------=========================text2 Bitis====================----------------------------- */
+
+/* ---------------------------=========================text3 baslangic====================----------------------------- */
+#mainDiv #about #text3{
+    width: 300px;
+    position: absolute;
+    height: 400px;
+    margin-left: 1300px;
+    margin-top: 50px;
+}
+#mainDiv #about #text3 p{
+    color: #1A1B1F;
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#mainDiv #about #text3 b{
+    position: absolute;
+    padding-top: 15px;
+    color: #959595;
+}
+
+#mainDiv #about #text3 i{
+    position:absolute;
+    padding-top: 35px;
+    color: #959595;
+    font-size: 24px;
+}
+/* ---------------------------=========================text3 bitis====================----------------------------- */
+#mainDiv #grow{
+    width: 100%;
+    height: 400px;
+}
+
+#mainDiv #grow {
+    width: 100%;
+    height: 600px;
+}
+
+#mainDiv #grow #gb{
+    text-align: center;
+    position: absolute;
+    background: #F4F4F4;
+    width: 90%;
+    margin: 5%;
+    height: 500px;
+}
+
+#mainDiv #grow #gb p{
+    text-align: center;
+    margin-top: 100px;
+    color: #1A1B1F;
+    font-size: 50px;
+}
+#mainDiv #grow #gb i{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #959595;
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+#mainDiv #grow #gb button{
+    background: #000;
+    color: #959595;
+    padding: 10px 50px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#mainDiv #grow #gb button:hover{
+    color: #fff;
+    transition: 0.3s;
+}
